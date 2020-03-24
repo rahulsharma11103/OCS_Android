@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">-->
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:background="@drawable/black_transparent_back">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/slow_network_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="slow network"
+            android:textColor="#ffffff" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/slow_network_interruption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/slow_network_view"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="you may experience interruption"
+            android:textColor="#D3D3D3"
+            android:textSize="12sp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/ray_orange_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+
+<!--
+</RelativeLayout>-->

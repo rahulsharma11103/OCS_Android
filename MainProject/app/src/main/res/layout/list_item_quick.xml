@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:id="@+id/lay_l1"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true" 
+        android:background="#cccccc">
+        
+        <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView1"
+        android:text="asdasd"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:layout_centerInParent="true" />
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/lay_l2"
+        android:layout_toRightOf="@+id/lay_l1"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content" >
+	    
+        <RelativeLayout 
+            android:layout_height="match_parent"
+            android:layout_width="1dp"
+            android:background="#000000"
+            android:layout_alignParentLeft="true">
+            
+        </RelativeLayout>
+        
+	       <CheckBox 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:id="@+id/checkBox1"
+        	android:layout_weight=".5"
+        	android:gravity="center"
+        	android:layout_centerInParent="true"
+	        android:button="@drawable/customcheckbox"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/lay_l3"
+        android:layout_toRightOf="@+id/lay_l2"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content" >
+        
+        <RelativeLayout 
+            android:layout_height="match_parent"
+            android:layout_width="1dp"
+            android:background="#000000"
+            android:layout_alignParentLeft="true">
+            
+        </RelativeLayout>
+        
+           
+            <CheckBox 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:id="@+id/checkBox2"
+	        android:gravity="center"
+	        android:layout_weight=".5"
+        	android:layout_centerInParent="true"
+	        android:button="@drawable/customcheckbox"/>
+
+        
+	       
+        
+    </RelativeLayout>
+	<RelativeLayout 
+        android:id="@+id/lay_l4"
+        android:layout_toRightOf="@+id/lay_l3"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content" >
+	    
+	    <RelativeLayout 
+            android:layout_height="match_parent"
+            android:layout_width="1dp"
+            android:background="#000000"
+            android:layout_alignParentLeft="true">
+            
+        </RelativeLayout>
+	    
+	       <CheckBox 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:id="@+id/checkBox3"
+	        android:gravity="center"
+	        android:layout_weight=".5"
+        	android:layout_centerInParent="true"
+	        android:button="@drawable/customcheckbox"/>
+        
+    </RelativeLayout>
+    <RelativeLayout 
+        android:id="@+id/lay_l5"
+        android:layout_toRightOf="@+id/lay_l4"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content" >
+        
+        <RelativeLayout 
+            android:layout_height="match_parent"
+            android:layout_width="1dp"
+            android:background="#000000"
+            android:layout_alignParentLeft="true">
+            
+        </RelativeLayout>
+        
+	       <CheckBox 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:id="@+id/checkBox4"
+	        android:gravity="center"
+	        android:layout_weight=".5"
+        	android:layout_centerInParent="true"
+	        android:button="@drawable/customcheckbox"/>
+        
+    </RelativeLayout>	
+    <RelativeLayout
+        android:id="@+id/lay_l6"
+        android:layout_toRightOf="@+id/lay_l5"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content">
+        
+        <RelativeLayout 
+            android:layout_height="match_parent"
+            android:layout_width="1dp"
+            android:background="#000000"
+            android:layout_alignParentLeft="true">
+            
+        </RelativeLayout>
+        
+	       <CheckBox
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:gravity="center"
+	        android:layout_weight=".5"
+        	android:layout_centerInParent="true"
+	        android:id="@+id/checkBox5"
+	        android:button="@drawable/customcheckbox"/>
+        
+    </RelativeLayout>	
+    
+</RelativeLayout>

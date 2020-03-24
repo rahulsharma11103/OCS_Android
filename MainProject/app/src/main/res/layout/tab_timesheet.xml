@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+      <RelativeLayout 
+        android:id="@+id/lay_tmshht"
+        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="#F36B21">
+        
+        <TextView 
+            android:layout_height="wrap_content" 
+			android:layout_width="wrap_content"
+			android:text="Timesheet"
+			android:textColor="#ffffff"
+			android:textSize="13sp"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			android:textStyle="bold"/>
+        
+
+        
+    </RelativeLayout>
+     <RelativeLayout
+         android:id="@+id/lay_bckggs"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@+id/lay_tmshht" 
+	    android:layout_marginBottom="50dp"
+        android:background="@drawable/splashbackg">
+    
+
+	    <TextView
+	        android:id="@+id/txt_ref_centtt"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_centerVertical="true" />
+    
+	    
+	    <RelativeLayout
+	        android:layout_below="@+id/txt_ref_centtt" 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_centerHorizontal="true">
+	        
+	        
+	        <Button
+	            android:id="@+id/btn_newpic"
+                android:layout_height="40dp"
+                android:layout_width="220dp"
+                android:textSize="13sp"
+                android:textColor="#ffffff"
+                android:text="Take a new photo"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_orange"/>
+	        
+	        <Button 
+	            android:id="@+id/btn_infonew"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:textSize="13sp"
+                android:textColor="#ffffff"
+                android:text="@string/que"
+                android:layout_toRightOf="@+id/btn_newpic"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_question"/>
+
+	        
+	        <Button 
+	            android:id="@+id/btn_existingpic"
+                android:layout_height="40dp"
+                android:layout_width="220dp"
+                android:textSize="13sp"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/btn_newpic"
+                android:text="Upload Existing Photo"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_orange"/>
+	        
+	        <Button 
+	            android:id="@+id/btn_infoexis"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:textSize="13sp"
+                android:textColor="#ffffff"
+                android:text="@string/que"
+                android:layout_below="@+id/btn_newpic"
+                android:layout_toRightOf="@+id/btn_existingpic"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_question"/>
+
+	        
+	    </RelativeLayout>
+	    
+    
+	</RelativeLayout>
+
+</RelativeLayout>

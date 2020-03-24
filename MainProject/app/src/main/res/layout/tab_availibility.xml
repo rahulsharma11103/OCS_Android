@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout 
+        android:id="@+id/lay_avavaa"
+        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="#F36B21">
+        
+        <TextView 
+            android:layout_height="wrap_content" 
+			android:layout_width="wrap_content"
+			android:text="Availability"
+			android:textColor="#ffffff"
+			android:textSize="13sp"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			android:textStyle="bold"/>
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/lay_bggg"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@+id/lay_avavaa"
+	    android:layout_marginBottom="50dp"
+        android:background="@drawable/splashbackg" >
+    
+
+	    <TextView
+	        android:id="@+id/txt_ref_cent"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_centerVertical="true" />
+
+	    <RelativeLayout
+	        android:layout_below="@+id/txt_ref_cent" 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_centerHorizontal="true">
+	        
+	        <TextView 
+	            android:id="@+id/txtx_oneees"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="For 2 week roster:"
+	            android:textColor="#000000"
+	            android:textSize="12sp"/>
+	        
+	        <Button 
+	            android:id="@+id/btn_quickavailb"
+                android:layout_height="40dp"
+                android:layout_width="220dp"
+                android:textSize="13sp"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/txtx_oneees"
+                android:text="My Quick Availibility"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_orange"/>
+	        
+	        <Button 
+	            android:id="@+id/btn_infqui"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:textSize="13sp"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/txtx_oneees"
+                android:layout_toRightOf="@+id/btn_quickavailb"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/que"
+                android:background="@drawable/btn_question"/>
+	        
+	        
+	        <TextView 
+	            android:id="@+id/txtx_twooos"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="For 6 week roster:"
+	            android:layout_marginTop="10dp"
+	            android:textColor="#000000"
+	            android:layout_below="@+id/btn_quickavailb"
+	            android:textSize="12sp"/>
+	        
+	        
+	        <Button 
+	            android:id="@+id/btn_advvavilbs"
+                android:layout_height="40dp"
+                android:layout_width="220dp"
+                android:textSize="13sp"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/txtx_twooos"
+                android:text="Advanced Availibility"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_orange"/>
+	        
+	        <Button 
+	            android:id="@+id/btn_infadv"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:textSize="13sp"
+                android:textColor="#ffffff"
+                android:text="@string/que"
+                android:layout_below="@+id/txtx_twooos"
+                android:layout_toRightOf="@+id/btn_advvavilbs"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_question"/>
+	        
+	        
+	        
+	    </RelativeLayout>
+	    
+    
+	</RelativeLayout>
+
+</RelativeLayout>
